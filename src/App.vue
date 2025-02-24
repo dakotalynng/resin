@@ -16,7 +16,7 @@ export default {
   name: 'App',
   data() {
     return {
-      iframeSrc: "https://cac-chi.vercel.app", // Initial source
+      iframeSrc: "https://alohamakeke.com/web/zoom", // Initial source
     };
   },
 };
