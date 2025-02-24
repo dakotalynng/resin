@@ -16,7 +16,7 @@ export default {
   name: 'App',
   data() {
     return {
-      iframeSrc: "https://embeds.beehiiv.com/53732169-763a-45cf-9213-ea8bbcd9e151", // Initial source
+      iframeSrc: "https://cac-chi.vercel.app", // Initial source
     };
   },
 };
@@ -25,14 +25,15 @@ export default {
 <style>
 /* Ensure the app container fills the entire viewport */
 #app {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw; /* Full width of the viewport */
-  height: 100vh; /* Full height of the viewport */
-  margin: 0;
-  background-color: #f9fafb;
-  overflow: hidden; /* Prevent scrollbars in the app */
+  background-image:none;
 }
 
 /* Make the iframe responsive and full-screen */
